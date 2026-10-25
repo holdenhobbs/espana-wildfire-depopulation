@@ -21,7 +21,7 @@ paper (corrected version, October 2026) with the recomputed values. Each is mark
 |---|---|
 | `MATCH` | recomputed value rounds to the printed number |
 | `ROUNDING` | off by one in the last printed digit |
-| `DIFFERS` | a real discrepancy (listed under Known issues) |
+| `DIFFERS` | a real discrepancy (listed under Notes) |
 | `NOTE` | a result not printed in the paper, shown for context |
 
 Results are saved to `results/reproduction_check.csv`. Current result: **178 MATCH, 3 NOTE, 0 ROUNDING, 0 DIFFERS**.
@@ -117,7 +117,12 @@ conclusion.
 - Wording: the middle quintiles are "mostly" not significant (Q2 differs for burned area, p = 0.027); Andalucía
   shows no *positive* relationship; the timing test moved from Next Steps to Robustness.
 - Added: Table 4 caption notes the omitted non-WUI urban class; Study Area notes the 18 post-2000 municipalities;
-  Limitations notes municipal splits. The unused FIRMS dataset was removed from Data Sources.
+  Limitations notes municipal splits (as its own "Boundary changes" item). The unused FIRMS dataset was removed
+  from Data Sources.
+- Second review: the all-municipality result (robustness test c) is now reported; the timing test is listed in
+  Methods as (g) and described as not significant at 5%; Figure 1's caption now describes standard 1.5 × IQR
+  whiskers; Key finding 4 and Section 5 wording on burn selectivity corrected; missing ESFire30 Causes reference
+  added and the Uhl et al. (2023) reference completed.
 
 ## Notes
 

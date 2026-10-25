@@ -147,5 +147,5 @@ Code is under the MIT License (`LICENSE`); data, results, figures and text are u
 
 ## Citation
 
-Hobbs, H. (2026). *Rural Depopulation, Farm Abandonment and Wildfire in Spain* — replication package.
-[Add Zenodo DOI after archiving.]
+Hobbs, H. (2026). *Rural Depopulation, Farm Abandonment and Wildfire in Spain* 
+

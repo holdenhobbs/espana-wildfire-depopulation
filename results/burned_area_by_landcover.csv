@@ -1,0 +1,11 @@
+region,landcover,burned_ha,share_pct
+Andalucia,artificial,886.05,0.3974452084740405
+Andalucia,agriculture,36057.15,16.173739065210484
+Andalucia,forest,36883.62,16.544459161646962
+Andalucia,scrub/herbaceous,131076.18,58.79532722315994
+Andalucia,other,18033.39,8.08902934150858
+Northwest,artificial,2287.89,0.2395455710925289
+Northwest,agriculture,79652.79,8.339768550788401
+Northwest,forest,175171.41,18.34071369145087
+Northwest,scrub/herbaceous,648086.04,67.85559645301808
+Northwest,other,49897.8,5.224375733650127

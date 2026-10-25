@@ -1,0 +1,182 @@
+where,item,paper,computed,status
+Study area,Andalucia municipalities,785,785.0,MATCH
+Study area,Northwest municipalities,850,850.0,MATCH
+Table 1 (Andalucia),rural municipalities,381,381.0,MATCH
+Table 1 (Andalucia),median population 2000,1187,1187.0,MATCH
+Table 1 (Andalucia),median population change 2000-2020 %,-12.4,-12.4267,MATCH
+Table 1 (Andalucia),median change in farm holdings %,-36.9,-36.8613,MATCH
+Table 1 (Andalucia),median change in SAU %,-12.3,-12.3036,MATCH
+Table 1 (Andalucia),burned patches per 100 km2 (total patches / total area),4.8,4.8464,MATCH
+Table 1 (Andalucia),mean % area burned,3.6,3.5555,MATCH
+Table 1 (Andalucia),median % area burned,0.5,0.5106,MATCH
+Table 1 (Andalucia),median annual precipitation mm,515,515.1573,MATCH
+Table 1 (Northwest),rural municipalities,608,608.0,MATCH
+Table 1 (Northwest),median population 2000,675,675.0,MATCH
+Table 1 (Northwest),median population change 2000-2020 %,-31.7,-31.6764,MATCH
+Table 1 (Northwest),median change in farm holdings %,-56.3,-56.3289,MATCH
+Table 1 (Northwest),median change in SAU %,-6.0,-6.0235,MATCH
+Table 1 (Northwest),burned patches per 100 km2 (total patches / total area),42.5,42.5105,MATCH
+Table 1 (Northwest),mean % area burned,15.5,15.5005,MATCH
+Table 1 (Northwest),median % area burned,4.1,4.0759,MATCH
+Table 1 (Northwest),median annual precipitation mm,834,834.1312,MATCH
+Key finding 1,NW median population loss %,32,31.6764,MATCH
+Key finding 1,NW median farm loss %,56,56.3289,MATCH
+Table 2 note,1 SD of population change (points),30.8,30.7656,MATCH
+Table 2 note,1 SD of farm-holding change (points),25.9,25.8855,MATCH
+Table 2 note,1 SD of % WUI (points),23.1,23.0872,MATCH
+Methods,comarca clusters in rural models,88,88.0,MATCH
+Methods (05_landcover),"municipalities with CORINE abandonment, of 1,635",273,273.0,MATCH
+Table 2 note,rural NW municipalities in models,604,604.0,MATCH
+Table 2 (Andalucia),"burned area, population loss (coef): estimate",-0.10,-0.0963,MATCH
+Table 2 (Andalucia),"burned area, population loss (coef): CI low",-0.34,-0.3399,MATCH
+Table 2 (Andalucia),"burned area, population loss (coef): CI high",0.15,0.1474,MATCH
+Table 2 (Andalucia),"burned area, population loss (coef): p",0.44,0.4388,MATCH
+Table 2 (Andalucia),"burned area, farm loss (coef): estimate",-0.02,-0.0185,MATCH
+Table 2 (Andalucia),"burned area, farm loss (coef): CI low",-0.20,-0.2038,MATCH
+Table 2 (Andalucia),"burned area, farm loss (coef): CI high",0.17,0.1667,MATCH
+Table 2 (Andalucia),"burned area, farm loss (coef): p",0.84,0.8445,MATCH
+Table 2 (Andalucia),"patches, population loss (RR): estimate",0.90,0.8993,MATCH
+Table 2 (Andalucia),"patches, population loss (RR): CI low",0.76,0.7606,MATCH
+Table 2 (Andalucia),"patches, population loss (RR): CI high",1.06,1.0634,MATCH
+Table 2 (Andalucia),"patches, population loss (RR): p",0.21,0.2146,MATCH
+Table 2 (Andalucia),"patches, pop. loss + fire history (RR): estimate",0.92,0.921,MATCH
+Table 2 (Andalucia),"patches, pop. loss + fire history (RR): CI low",0.79,0.7906,MATCH
+Table 2 (Andalucia),"patches, pop. loss + fire history (RR): CI high",1.07,1.0729,MATCH
+Table 2 (Andalucia),"patches, pop. loss + fire history (RR): p",0.29,0.2906,MATCH
+Table 2 (Andalucia),"patches, farm loss (RR): estimate",1.05,1.0518,MATCH
+Table 2 (Andalucia),"patches, farm loss (RR): CI low",0.85,0.8501,MATCH
+Table 2 (Andalucia),"patches, farm loss (RR): CI high",1.30,1.3014,MATCH
+Table 2 (Andalucia),"patches, farm loss (RR): p",0.64,0.642,MATCH
+Table 2 (Andalucia),"patches, % WUI (RR): estimate",1.09,1.0894,MATCH
+Table 2 (Andalucia),"patches, % WUI (RR): CI low",0.73,0.7324,MATCH
+Table 2 (Andalucia),"patches, % WUI (RR): CI high",1.62,1.6206,MATCH
+Table 2 (Andalucia),"patches, % WUI (RR): p",0.67,0.6724,MATCH
+Table 2 (Andalucia),n,381,381.0,MATCH
+Table 2 (Northwest),"burned area, population loss (coef): estimate",0.24,0.2432,MATCH
+Table 2 (Northwest),"burned area, population loss (coef): CI low",0.08,0.079,MATCH
+Table 2 (Northwest),"burned area, population loss (coef): CI high",0.41,0.4075,MATCH
+Table 2 (Northwest),"burned area, population loss (coef): p",0.004,0.0037,MATCH
+Table 2 (Northwest),"burned area, farm loss (coef): estimate",0.19,0.1924,MATCH
+Table 2 (Northwest),"burned area, farm loss (coef): CI low",0.06,0.0611,MATCH
+Table 2 (Northwest),"burned area, farm loss (coef): CI high",0.32,0.3238,MATCH
+Table 2 (Northwest),"burned area, farm loss (coef): p",0.004,0.0041,MATCH
+Table 2 (Northwest),"patches, population loss (RR): estimate",1.28,1.2798,MATCH
+Table 2 (Northwest),"patches, population loss (RR): CI low",1.05,1.0471,MATCH
+Table 2 (Northwest),"patches, population loss (RR): CI high",1.56,1.5644,MATCH
+Table 2 (Northwest),"patches, population loss (RR): p",0.02,0.016,MATCH
+Table 2 (Northwest),"patches, pop. loss + fire history (RR): estimate",1.27,1.2706,MATCH
+Table 2 (Northwest),"patches, pop. loss + fire history (RR): CI low",1.07,1.0702,MATCH
+Table 2 (Northwest),"patches, pop. loss + fire history (RR): CI high",1.51,1.5086,MATCH
+Table 2 (Northwest),"patches, pop. loss + fire history (RR): p",0.006,0.0063,MATCH
+Table 2 (Northwest),"patches, farm loss (RR): estimate",1.08,1.0798,MATCH
+Table 2 (Northwest),"patches, farm loss (RR): CI low",0.90,0.8973,MATCH
+Table 2 (Northwest),"patches, farm loss (RR): CI high",1.30,1.2994,MATCH
+Table 2 (Northwest),"patches, farm loss (RR): p",0.42,0.4165,MATCH
+Table 2 (Northwest),"patches, % WUI (RR): estimate",0.68,0.682,MATCH
+Table 2 (Northwest),"patches, % WUI (RR): CI low",0.50,0.4997,MATCH
+Table 2 (Northwest),"patches, % WUI (RR): CI high",0.93,0.9309,MATCH
+Table 2 (Northwest),"patches, % WUI (RR): p",0.02,0.0159,MATCH
+Table 2 (Northwest),n,604,604.0,MATCH
+Text / Methods,"(1 + % burned) higher per SD, NW (%)",28,27.5357,MATCH
+Text / Methods,NW median % burned,4.1,4.0759,MATCH
+Text / Methods,NW median rises to (% burned),5.5,5.4736,MATCH
+Text / Methods,increase in burned share at median (%),34,34.2914,MATCH
+Key finding 4,"farm loss: (1 + % burned) higher per SD, NW (%)",21,21.2199,MATCH
+Findings 2,interaction RR (NW vs Andalucia),1.63,1.6345,MATCH
+Findings 2,interaction CI low,1.26,1.262,MATCH
+Findings 2,interaction CI high,2.12,2.117,MATCH
+Findings 2,interaction p,< 0.001,0.0002,MATCH
+Findings 2 (context),Andalucia population-loss RR in pooled model,'no positive relationship',"0.83 (0.69-1.00), p = 0.049",NOTE
+Robustness (Northwest),basic model patches RR,1.33,1.3307,MATCH
+Robustness (Northwest),basic model p,0.002,0.0022,MATCH
+Robustness (Andalucia),basic model patches RR,0.92,0.9197,MATCH
+Robustness (Andalucia),basic model p,0.27,0.2671,MATCH
+Table 3,Q1 upper bound of population loss (%),22,22.3735,MATCH
+Table 3,Q2 upper bound of population loss (%),29,29.2393,MATCH
+Table 3,Q3 upper bound of population loss (%),35,34.5009,MATCH
+Table 3,Q4 upper bound of population loss (%),40,39.934,MATCH
+Table 3,Q5 upper bound of population loss (%),62,62.3529,MATCH
+Table 3,Q2 burned area coef,0.23,0.2331,MATCH
+Table 3,Q2 burned area p,0.03,0.0275,MATCH
+Table 3,Q2 patches RR,1.10,1.0962,MATCH
+Table 3,Q2 patches p,0.40,0.4034,MATCH
+Table 3,Q3 burned area coef,0.09,0.0932,MATCH
+Table 3,Q3 burned area p,0.38,0.3819,MATCH
+Table 3,Q3 patches RR,1.13,1.1344,MATCH
+Table 3,Q3 patches p,0.32,0.3241,MATCH
+Table 3,Q4 burned area coef,0.20,0.2005,MATCH
+Table 3,Q4 burned area p,0.23,0.2307,MATCH
+Table 3,Q4 patches RR,1.12,1.1246,MATCH
+Table 3,Q4 patches p,0.36,0.3641,MATCH
+Table 3,Q5 burned area coef,0.38,0.3799,MATCH
+Table 3,Q5 burned area p,0.020,0.0197,MATCH
+Table 3,Q5 patches RR,1.39,1.3885,MATCH
+Table 3,Q5 patches p,0.019,0.0186,MATCH
+Table 3,linear without Q5: n,483,483.0,MATCH
+Table 3,linear without Q5: burned area coef,0.17,0.165,MATCH
+Table 3,linear without Q5: burned area p,0.058,0.0581,MATCH
+Table 3,linear without Q5: patches RR,1.18,1.1801,MATCH
+Table 3,linear without Q5: patches p,0.16,0.1647,MATCH
+Table 3,linear without Ourense: n,538,538.0,MATCH
+Table 3,linear without Ourense: burned area coef,0.29,0.29,MATCH
+Table 3,linear without Ourense: burned area p,< 0.001,0.0002,MATCH
+Table 3,linear without Ourense: patches RR,1.30,1.2972,MATCH
+Table 3,linear without Ourense: patches p,0.016,0.0164,MATCH
+Table 3 note,Andalucia: smallest quintile p,> 0.09,0.093,MATCH
+"Robustness, timing (Northwest)","loss 2000-2010 -> patches 2011-2025, RR per SD of loss",1.13,1.1277,MATCH
+"Robustness, timing (Northwest)",p,0.066,0.0663,MATCH
+"Robustness, timing (Andalucia)","loss 2000-2010 -> patches 2011-2025, RR per SD of loss",0.89,0.895,MATCH
+"Robustness, timing (Andalucia)",p,0.18,0.1834,MATCH
+Table 4 (Andalucia),Interface (forest/shrub): landscape %,1.0,0.9728,MATCH
+Table 4 (Andalucia),Interface (forest/shrub): burned %,0.2,0.1648,MATCH
+Table 4 (Andalucia),Interface (forest/shrub): ratio,0.17,0.1694,MATCH
+Table 4 (Northwest),Interface (forest/shrub): landscape %,0.4,0.4201,MATCH
+Table 4 (Northwest),Interface (forest/shrub): burned %,0.0,0.0295,MATCH
+Table 4 (Northwest),Interface (forest/shrub): ratio,0.07,0.0702,MATCH
+Table 4 (Andalucia),Interface (grass): landscape %,3.0,3.0143,MATCH
+Table 4 (Andalucia),Interface (grass): burned %,0.5,0.4783,MATCH
+Table 4 (Andalucia),Interface (grass): ratio,0.16,0.1587,MATCH
+Table 4 (Northwest),Interface (grass): landscape %,0.9,0.8986,MATCH
+Table 4 (Northwest),Interface (grass): burned %,0.1,0.0791,MATCH
+Table 4 (Northwest),Interface (grass): ratio,0.09,0.0881,MATCH
+Table 4 (Andalucia),Intermix (forest/shrub): landscape %,5.4,5.4333,MATCH
+Table 4 (Andalucia),Intermix (forest/shrub): burned %,3.4,3.4067,MATCH
+Table 4 (Andalucia),Intermix (forest/shrub): ratio,0.63,0.627,MATCH
+Table 4 (Northwest),Intermix (forest/shrub): landscape %,14.3,14.3466,MATCH
+Table 4 (Northwest),Intermix (forest/shrub): burned %,5.1,5.0532,MATCH
+Table 4 (Northwest),Intermix (forest/shrub): ratio,0.35,0.3522,MATCH
+Table 4 (Andalucia),Intermix (grass): landscape %,4.7,4.6715,MATCH
+Table 4 (Andalucia),Intermix (grass): burned %,2.7,2.6509,MATCH
+Table 4 (Andalucia),Intermix (grass): ratio,0.57,0.5675,MATCH
+Table 4 (Northwest),Intermix (grass): landscape %,9.6,9.5653,MATCH
+Table 4 (Northwest),Intermix (grass): burned %,2.9,2.8759,MATCH
+Table 4 (Northwest),Intermix (grass): ratio,0.30,0.3007,MATCH
+Table 4 (Andalucia),Non-WUI wildland (forest/shrub): landscape %,40.8,40.7575,MATCH
+Table 4 (Andalucia),Non-WUI wildland (forest/shrub): burned %,54.4,54.45,MATCH
+Table 4 (Andalucia),Non-WUI wildland (forest/shrub): ratio,1.34,1.3359,MATCH
+Table 4 (Northwest),Non-WUI wildland (forest/shrub): landscape %,38.2,38.1539,MATCH
+Table 4 (Northwest),Non-WUI wildland (forest/shrub): burned %,38.2,38.1951,MATCH
+Table 4 (Northwest),Non-WUI wildland (forest/shrub): ratio,1.00,1.0011,MATCH
+Table 4 (Andalucia),Non-WUI grassland: landscape %,26.1,26.0607,MATCH
+Table 4 (Andalucia),Non-WUI grassland: burned %,33.2,33.2224,MATCH
+Table 4 (Andalucia),Non-WUI grassland: ratio,1.27,1.2748,MATCH
+Table 4 (Northwest),Non-WUI grassland: landscape %,24.4,24.3558,MATCH
+Table 4 (Northwest),Non-WUI grassland: burned %,52.5,52.5232,MATCH
+Table 4 (Northwest),Non-WUI grassland: ratio,2.16,2.1565,MATCH
+Table 4 (Andalucia),Non-WUI other: landscape %,18.2,18.2472,MATCH
+Table 4 (Andalucia),Non-WUI other: burned %,5.6,5.6055,MATCH
+Table 4 (Andalucia),Non-WUI other: ratio,0.31,0.3072,MATCH
+Table 4 (Northwest),Non-WUI other: landscape %,12.2,12.1949,MATCH
+Table 4 (Northwest),Non-WUI other: burned %,1.2,1.2439,MATCH
+Table 4 (Northwest),Non-WUI other: ratio,0.10,0.102,MATCH
+Table 4 (Andalucia),Non-WUI urban (row omitted from Table 4),not shown (noted in caption),0.84% / 0.02%,NOTE
+Table 4 (Northwest),Non-WUI urban (row omitted from Table 4),not shown (noted in caption),0.06% / 0.00%,NOTE
+Methods,"Moran's I basic model, min",0.22,0.2233,MATCH
+Methods,"Moran's I basic model, max",0.53,0.5262,MATCH
+Robustness,"Moran's I with fixed effects, min",0.19,0.1892,MATCH
+Robustness,"Moran's I with fixed effects, max",0.49,0.4936,MATCH
+Methods,WUI 30 m vs 10 m: test municipalities,100,100.0,MATCH
+Methods,"WUI 30 m vs 10 m: mean |difference|, intermix (points)",0.03,0.0276,MATCH
+Methods,WUI 30 m vs 10 m: max |difference| (points),0.16,0.1646,MATCH
+Methods,WUI 30 m vs 10 m: r,1.000,1.0,MATCH
+Methods,smallest test municipality (km2),1.65,1.6491,MATCH

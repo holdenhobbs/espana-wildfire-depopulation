@@ -1,0 +1,76 @@
+column,units,source,description
+ine_code,code,INE / CNIG,"5-digit INE municipal code (read as text to keep leading zeros)"
+muni_name,text,CNIG,Municipality name
+region,text,derived,"Study region: Andalucia or Northwest (Galicia, Asturias, Leon, Zamora)"
+CA_CODE,code,HISDAC-ES / CNIG,Autonomous community code
+PROV_CODE,code,HISDAC-ES / CNIG,"Province code (2 digits; 32 = Ourense). Used for province fixed effects"
+area_km2,km2,CNIG polygons (EPSG:3035),Municipal area
+pop_2000,people,INE Padron,Official population 1 January 2000
+pop_2010,people,INE Padron,Official population 2010
+pop_2020,people,INE Padron,Official population 2020
+pop_2025,people,INE Padron,Official population 2025
+numbldgs_2000,buildings,HISDAC-ES (Uhl et al. 2023),Number of buildings in 2000
+numbldgs_2020,buildings,HISDAC-ES (Uhl et al. 2023),Number of buildings in 2020
+density_2000,people/km2,derived,pop_2000 / area_km2
+pop_change_pct_2000_2020,%,derived,"100 * (pop_2020 - pop_2000) / pop_2000. Models use the negative (population loss)"
+pop_change_pct_2000_2010,%,derived,100 * (pop_2010 - pop_2000) / pop_2000 (timing test)
+bldg_change_pct_2000_2020,%,derived,Percent change in buildings 2000-2020
+rural_2000,TRUE/FALSE,derived,density_2000 < 50 and pop_2000 < 5000 (sample for main models)
+burned_ha_2001_2025,ha,ESFire30 (Ochoa et al. 2026),"Burned area 2001-2025 summed over years (repeat burns counted each time)"
+n_fires_2001_2025,count,ESFire30,"Burned patches intersecting the municipality, summed over years (a fire crossing several municipalities counts once in each). Reported as 'burned patches'"
+fire_years_2001_2025,years,ESFire30,Number of distinct years with any burned area
+burned_ha_2011_2025,ha,ESFire30,Burned area 2011-2025 (timing test outcome period)
+n_fires_2011_2025,count,ESFire30,Burned patches 2011-2025 (timing test outcome)
+fire_years_2011_2025,years,ESFire30,Years with burned area 2011-2025
+burned_ha_1985_2000,ha,ESFire30,Burned area 1985-2000 (fire-history control)
+n_fires_1985_2000,count,ESFire30,Burned patches 1985-2000
+fire_years_1985_2000,years,ESFire30,Years with burned area 1985-2000
+reburned_ha_2001_2025,ha,ESFire30,Area burned two or more times 2001-2025
+pct_burned_2001_2025,% of municipal area,derived,"100 * burned_ha_2001_2025 / (area_km2 * 100). Can exceed 100 where land reburned. Main outcome is log(1 + this)"
+pct_reburned_2001_2025,% of municipal area,derived,Reburned area as a share of municipal area
+pct_burned_1985_2000,% of municipal area,derived,"Burned share 1985-2000; log(1 + this), standardized, is the fire-history control"
+firms_n_2008_2023,count,NASA FIRMS MODIS C6.1 (type 0),Vegetation-fire detections 2008-2023 (not used in the reported findings)
+firms_frp_mean,MW,NASA FIRMS,Mean fire radiative power of detections (not used in the reported findings)
+firms_frp_max,MW,NASA FIRMS,Maximum fire radiative power (not used in the reported findings)
+abandon_ha_1990_2000,ha,CORINE change layers,Agriculture (CLC 12-22) to forest/scrub (23-29) 1990-2000
+urbanize_ha_1990_2000,ha,CORINE change layers,Change to artificial surfaces (CLC 1-11) 1990-2000
+abandon_ha_2000_2006,ha,CORINE change layers,Agriculture to forest/scrub 2000-2006
+urbanize_ha_2000_2006,ha,CORINE change layers,Change to artificial surfaces 2000-2006
+abandon_ha_2006_2012,ha,CORINE change layers,Agriculture to forest/scrub 2006-2012
+urbanize_ha_2006_2012,ha,CORINE change layers,Change to artificial surfaces 2006-2012
+abandon_ha_2012_2018,ha,CORINE change layers,Agriculture to forest/scrub 2012-2018
+urbanize_ha_2012_2018,ha,CORINE change layers,Change to artificial surfaces 2012-2018
+abandon_ha_2000_2018,ha,derived,Sum of the three 2000-2018 abandonment periods
+urbanize_ha_2000_2018,ha,derived,Sum of the three 2000-2018 urbanization periods
+pct_abandon_2000_2018,% of municipal area,derived,CORINE-detected abandonment 2000-2018 as a share of area
+pct_artificial_2018,% of municipal area,CORINE 2018,Artificial surfaces (CLC 1-11)
+pct_agri_2018,% of municipal area,CORINE 2018,Agriculture (CLC 12-22)
+pct_forest_2018,% of municipal area,CORINE 2018,Forest (CLC 23-25)
+pct_scrub_2018,% of municipal area,CORINE 2018,Scrub and herbaceous vegetation (CLC 26-29)
+pct_other_2018,% of municipal area,CORINE 2018,"All other classes (open spaces, wetlands, water)"
+pct_wildland_2018,% of municipal area,derived,pct_forest_2018 + pct_scrub_2018 (model control)
+pct_agri_2000_approx,% of municipal area,derived,pct_agri_2018 + pct_abandon_2000_2018 (approximate 2000 farmland)
+sau_ha_1999,ha,INE Censo Agrario 1999,Utilized agricultural area (tilled land + permanent pasture)
+cropland_ha_1999,ha,INE Censo Agrario 1999,Tilled land (tierras labradas)
+holdings_1999,count,INE Censo Agrario 1999,Number of farm holdings
+uta_1999,labour units,INE Censo Agrario 1999,Annual work units (UTA)
+sau_ha_2020,ha,INE Censo Agrario 2020 (table 52071),Utilized agricultural area
+holdings_2020,count,INE Censo Agrario 2020 (table 52071),Number of farm holdings
+comarca,code,INE Censo Agrario 2020 (table 52071),"Agricultural county; cluster for standard errors (province code used where missing)"
+sau_change_pct_1999_2020,%,derived,Percent change in SAU 1999-2020
+holdings_change_pct_1999_2020,%,derived,"Percent change in farm holdings 1999-2020. Models use the negative (farm-holding loss)"
+elev_mean_m,m,Copernicus DEM GLO-90,Mean elevation
+slope_mean_deg,degrees,Copernicus DEM GLO-90,Mean slope
+temp_mean_c,deg C,WorldClim 2.1 BIO1,Annual mean temperature (1970-2000 normals)
+precip_mm,mm/yr,WorldClim 2.1 BIO12,Annual precipitation (1970-2000 normals)
+pct_wui_class1,% of municipal area,Schug et al. 2023 WUI,Intermix (forest/shrub)
+pct_wui_class2,% of municipal area,Schug et al. 2023 WUI,Interface (forest/shrub)
+pct_wui_class3,% of municipal area,Schug et al. 2023 WUI,Intermix (grass)
+pct_wui_class4,% of municipal area,Schug et al. 2023 WUI,Interface (grass)
+pct_wui_class5,% of municipal area,Schug et al. 2023 WUI,Non-WUI wildland (forest/shrub)
+pct_wui_class6,% of municipal area,Schug et al. 2023 WUI,Non-WUI grassland
+pct_wui_class7,% of municipal area,Schug et al. 2023 WUI,Non-WUI urban
+pct_wui_class8,% of municipal area,Schug et al. 2023 WUI,Non-WUI other
+pct_wui_intermix,% of municipal area,derived,class1 + class3
+pct_wui_interface,% of municipal area,derived,class2 + class4
+pct_wui_any,% of municipal area,derived,"pct_wui_intermix + pct_wui_interface (model control, '% WUI')"

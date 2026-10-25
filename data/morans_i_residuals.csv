@@ -1,0 +1,13 @@
+spec,region,residual,morans_i,z,p
+basic,Andalucia,resid_M1,0.224508,5.622014,0.0
+basic,Andalucia,resid_M3,0.223276,5.572436,0.0
+basic,Northwest,resid_M1,0.396198,14.416746,0.0
+basic,Northwest,resid_M3,0.526175,18.992767,0.0
+basic,Both,resid_M1,0.323,14.026586,0.0
+basic,Both,resid_M3,0.414242,17.924453,0.0
+fe_cluster,Andalucia,resid_M1,0.203291,5.09283,0.0
+fe_cluster,Andalucia,resid_M3,0.189166,4.731596,2e-06
+fe_cluster,Northwest,resid_M1,0.376379,13.692747,0.0
+fe_cluster,Northwest,resid_M3,0.493579,17.82421,0.0
+fe_cluster,Both,resid_M1,0.300154,13.033157,0.0
+fe_cluster,Both,resid_M3,0.381907,16.530547,0.0

@@ -1,0 +1,9 @@
+# Raw downloads and GIS intermediates are public, large and regenerable (see README)
+00_raw/
+01_processed/
+*.gdb/
+*.tif
+*.tif.ovr
+*.tfw
+__pycache__/
+*.pyc
